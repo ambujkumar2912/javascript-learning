@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="main-heading">Spider Man</h1>
+    <h2 id="sub-heading">Friendly Neighborhood Hero</h2>
+  </header>
+
+  <section id="intro-section">
+    <h3>Introduction</h3>
+    <p id="intro-para">Spider-Man is one of the most popular superheroes, known for his agility, wall-crawling, and spider-sense. He balances life as a student with his responsibilities as a superhero.</p>
+    <p id="intro-para-2">This page has many elements with unique ids and classes so you can practice DOM selection, event handling, and manipulation.</p>
+  </section>
+
+  <section id="powers-section">
+    <h3>Powers and Abilities</h3>
+    <h4>Physical Powers</h4>
+    <ul id="physical-powers">
+      <li class="power">Superhuman strength</li>
+      <li class="power">Wall-crawling</li>
+      <li class="power">Enhanced agility and reflexes</li>
+    </ul>
+
+    <h4>Special Abilities</h4>
+    <ol id="special-abilities">
+      <li class="ability">Spider-sense</li>
+      <li class="ability">Web-shooting</li>
+      <li class="ability">Quick healing</li>
+    </ol>
+  </section>
+
+  <section id="villains-section">
+    <h3>Famous Villains</h3>
+    <table id="villains-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Power</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Green Goblin</td>
+          <td>Strength, Glider</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>Doctor Octopus</td>
+          <td>Mechanical Arms</td>
+          <td>Active</td>
+        </tr>
+        <tr>
+          <td>Venom</td>
+          <td>Symbiote Powers</td>
+          <td>Active</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="interactive-section">
+    <h3>Try Some DOM Actions</h3>
+
+    <button id="change-heading-btn">Change Heading Text</button>
+    <button id="change-color-btn">Toggle Heading Color</button>
+    <button id="add-item-btn">Add New Power</button>
+    <button id="hide-section-btn">Hide This Section</button>
+
+    <div>
+      <h4>Add Your Own Note</h4>
+      <input type="text" id="note-input" placeholder="Type something here">
+      <button id="add-note-btn">Add Note</button>
+      <ul id="notes-list"></ul>
+    </div>
+  </section>
+
+  <section id="counter-section">
+    <h3>Counter App</h3>
+    <p>Count: <span id="counter-value">0</span></p>
+    <button id="increase-btn">Increase</button>
+    <button id="decrease-btn">Decrease</button>
+    <button id="reset-btn">Reset</button>
+  </section>
+
+  <footer id="page-footer">
+    <p>DOM Practice Page &mdash; Built for learning JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
